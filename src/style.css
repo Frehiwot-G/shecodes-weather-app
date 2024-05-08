@@ -1,3 +1,42 @@
-body{
+/* body{
     background-image: url("img/sky_anime.jpg");
+
+} */
+a{
+    color: #c393f0;
+}
+.container{
+    align-items: center;
+    /* border: solid 1px whitesmoke; */
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    margin: 100px 200px 50px 400px;
+    padding: 30px;
+    width:fit-content;
+}
+h1{
+    line-height: 28px;
+    font-family: PT Mono, monospace;
+}
+.city{
+    border-radius: 5px;
+    padding: 10px;
+    width: 75%;
+    color: rgba(39, 33, 66, 0.4);
+    border: none;
+}
+.search{
+    background-color: plum;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border:plum;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.temp{
+    margin-top: 30px;
+    font-size:xx-large;
 }
